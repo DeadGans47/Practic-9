@@ -10,9 +10,13 @@ class Person
         set
         {
             if (value >= 1 && value <= 120)
+            {
                 age = value;
+            }
             else
+            {
                 Console.WriteLine("Возраст должен быть от 1 до 120!");
+            }
         }
     }
 
